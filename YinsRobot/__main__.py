@@ -103,7 +103,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➗ Add Yins To Your Group ➗", url=f"t.me/{bu}?startgroup=new"),
+            text="➗ Add Me To Your Group ➗", url=f"t.me/{bu}?startgroup=new"),
     ],
 ]
 
@@ -360,15 +360,15 @@ def yins_about_callback(update, context):
     query = update.callback_query
     if query.data == "yins_":
         query.message.edit_text(
-            text="๏ I'm *Yins*, a powerful group management bot built to help you manage your group easily."
+            text="๏ I'm *SE*, a powerful group management bot built to help you manage your group easily."
             "\n• I can restrict users."
             "\n• I can greet users with customizable welcome messages and even set a group's rules."
             "\n• I have an advanced anti-flood system."
             "\n• I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc."
             "\n• I have a note keeping system, blacklists, and even predetermined replies on certain keywords."
             "\n• I check for admins' permissions before executing any command and more stuffs"
-            "\n\n_Yin's licensed under the GNU General Public License v3.0_"
-            "\n\n Click on button bellow to get basic help for YinsRobot.",
+            "\n\n_SE licensed under the GNU General Public License v3.0_"
+            "\n\n Click on button bellow to get basic help for SERobot.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -441,8 +441,8 @@ def yins_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/AyiinXdSupport"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/AyiinSupport"),
+                    InlineKeyboardButton(text="Support", url="t.me/senzusupp"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/idealizerd"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="yins_"),
