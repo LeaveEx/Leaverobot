@@ -382,7 +382,7 @@ def yins_about_callback(update, context):
                     InlineKeyboardButton(text="Credits", callback_data="yins_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="Source Code", url="https://github.com/AyiinXd/YinsRobot"),
+                    InlineKeyboardButton(text="OWNER", url="https://t.me/xpemainbaru"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="yins_back"),
@@ -436,12 +436,12 @@ def yins_about_callback(update, context):
     elif query.data == "yins_support":
         query.message.edit_text(
             text="*๏ Yins support chats*"
-            "\nJoin My Support Group/Channel for see or report a problem on Yins.",
+            "\nJoin My Support Group/Channel for see or report a problem on Ayato.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/senzusupp"),
+                    InlineKeyboardButton(text="Support", url="htt.me/senzusupp"),
                     InlineKeyboardButton(text="Updates", url="https://t.me/idealizerd"),
                  ],
                  [
