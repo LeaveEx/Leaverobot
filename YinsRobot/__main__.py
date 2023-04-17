@@ -1,4 +1,4 @@
-import html
+Yaimport html
 import os
 import json
 import importlib
@@ -83,7 +83,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-✪ I'm an Yins management bot [✨](https://telegra.ph/file/64f4b1e3ab6d6911447d2.jpg)
+✪ I'm an SE management bot [✨](https://telegra.ph/file/6fbdb2f77c4ec8898994e.jpg)
 ────────────────────────
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
@@ -93,7 +93,7 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="About Yins Robot", callback_data="yins_"),
+        InlineKeyboardButton(text="About SE Robot", callback_data="yins_"),
     ],
     [
         InlineKeyboardButton(text="Get Help", callback_data="help_back"),
